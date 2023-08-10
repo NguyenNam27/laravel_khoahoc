@@ -19,6 +19,7 @@ class ModuleServiceProvider extends ServiceProvider
         }
     }
 
+    // registerModule
     private function registerModule($module)
     {
         $modulePath = __DIR__ . "/{$module}";
